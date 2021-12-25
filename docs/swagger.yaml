@@ -1,0 +1,14 @@
+info:
+  contact: {}
+paths:
+  /categories/:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: list parts
+swagger: "2.0"
