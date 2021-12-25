@@ -4,4 +4,4 @@
 
 ## Getting started
 - run `go run main.go`
-- navigate to a browswer on port :8080
+- you can view api docs at "http://localhost:8080/swagger/index.html"
