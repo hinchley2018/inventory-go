@@ -1,7 +1,36 @@
 info:
   contact: {}
 paths:
-  /categories/:
+  /categories:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: list categories
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: create category
+  /categories/:id:
+    put:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: update category
+  /parts:
     get:
       consumes:
       - application/json
@@ -11,4 +40,13 @@ paths:
         "200":
           description: ""
       summary: list parts
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: create part
 swagger: "2.0"
