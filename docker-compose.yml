@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    container_name: inventory-api
+    image: inventory-api
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080

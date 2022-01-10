@@ -3,5 +3,8 @@
 
 
 ## Getting started
-- run `go run main.go`
+- run `docker compose up --build`
 - you can view api docs at http://localhost:8080/swagger/index.html
+
+## Generating documentation
+- generate docs `swag init`
